@@ -1,0 +1,6 @@
+list = []
+adet = int(input('Kaç sayı girmek istersiniz?: '))
+for n in range(adet):
+    sayı = int(input('Sayıyı giriniz: '))
+    list.append(sayı)
+print('Liste içerisindeki en büyük sayı: ', max(list))
